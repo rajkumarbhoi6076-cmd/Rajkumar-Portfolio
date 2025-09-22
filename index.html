@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Rajkumar Bhoi — Introduction</title>
+  <meta name="description" content="Personal introduction page for Rajkumar Bhoi.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <main class="hero">
+        <div class="intro">
+          <span class="tag">Hello — I’m</span>
+          <h1 id="fullname">Rajkumar Bhoi</h1>
+          <p class="lead" id="headline">BCA Student • Aspiring IT Professional</p>
+          <p class="bio" id="about">I am pursuing my Bachelor of Computer Applications at Mohanlal Sukhadia University, Udaipur. Passionate about IT, networking, and cybersecurity, I have hands-on experience as an IT Executive and Cashier, with technical expertise in computer hardware, networking, CCNA, Linux, and cybersecurity. I aim to contribute my skills in professional environments while continuing to learn and grow.</p>
+
+          <div class="actions">
+            <a class="btn" href="#contact" id="hireBtn">Contact me</a>
+            <a class="ghost" href="assets/resume.docx" id="resumeLink" download>Download Resume</a>
+          </div>
+
+          <section style="margin-top:20px">
+            <h3 style="margin:0 0 10px">Quick facts</h3>
+            <p style="margin:0;color:var(--muted);font-size:14px">Location: <strong id="location">Udaipur, Rajasthan</strong> • Email: <a id="emailLink" href="mailto:rajkumarbhoi6076@gmail.com">rajkumarbhoi6076@gmail.com</a></p>
+          </section>
+
+          <section style="margin-top:20px">
+            <h3 style="margin:0 0 10px">Education</h3>
+            <ul style="margin:0;padding-left:18px;color:var(--muted)">
+              <li><strong>BCA</strong> — Mohanlal Sukhadia University, Udaipur (Running)</li>
+              <li><strong>Diploma</strong> — Computer Hardware, Networking, Server, CCNA, Linux, Cybersecurity (IANT Udaipur, 2022)</li>
+              <li><strong>Class XII</strong> — Govt. Sen. Sec. School, Kanore Udaipur (2021, 77%)</li>
+            </ul>
+          </section>
+
+          <section style="margin-top:20px">
+            <h3 style="margin:0 0 10px">Work Experience</h3>
+            <ul style="margin:0;padding-left:18px;color:var(--muted)">
+              <li><strong>IT Executive</strong> — GBH American Hospital Debary Udaipur (2 months, networking support)</li>
+              <li><strong>Cashier</strong> — Reliance Retail Smart Point, Udaipur (customer service & billing)</li>
+            </ul>
+          </section>
+        </div>
+      </main>
+
+      <aside class="sidebar">
+        <div class="avatar">
+          <img src="assets/profile.jpg" alt="Rajkumar Bhoi Profile Photo">
+        </div>
+
+        <div class="list">
+          <h4>Skills</h4>
+          <div>
+            <span class="skill">Networking</span>
+            <span class="skill">CCNA</span>
+            <span class="skill">Linux</span>
+            <span class="skill">Cybersecurity</span>
+            <span class="skill">Hardware Troubleshooting</span>
+            <span class="skill">MS Office</span>
+          </div>
+        </div>
+
+        <div class="list">
+          <h4>Social</h4>
+          <div style="display:flex;flex-direction:column;gap:8px;margin-top:8px">
+            <a class="ghost" href="https://github.com/" target="_blank">GitHub</a>
+            <a class="ghost" href="https://www.linkedin.com/in/raj-kumar-bhoi-527465253" target="_blank">LinkedIn</a>
+            <a class="ghost" href="https://www.instagram.com/rajkumar__bhoiraj/?hl=en" target="_blank">Instagram</a>
+            <a class="ghost" href="https://wa.me/919660722465" target="_blank">WhatsApp</a>
+          </div>
+        </div>
+
+        <div class="list" id="contact">
+          <h4>Contact</h4>
+          <p style="margin:6px 0;color:var(--muted)">Prefer email? <a id="mail" href="mailto:rajkumarbhoi6076@gmail.com">rajkumarbhoi6076@gmail.com</a></p>
+          <form onsubmit="submitForm(event)" style="display:flex;flex-direction:column;gap:8px;margin-top:8px">
+            <input id="name" placeholder="Your name" required>
+            <input id="contactEmail" placeholder="Your email" type="email" required>
+            <textarea id="message" placeholder="Message" rows="3"></textarea>
+            <button class="btn" type="submit">Send</button>
+          </form>
+        </div>
+      </aside>
+    </div>
+
+    <footer>
+      Built with ❤️ • <span id="year"></span>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
